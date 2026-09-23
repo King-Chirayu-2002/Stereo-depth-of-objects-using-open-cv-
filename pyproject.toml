@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stereo-depth-mini"
+version = "0.1.0"
+description = "A reproducible stereo disparity and depth mini-project"
+requires-python = ">=3.9"
+dependencies = ["opencv-python>=4.8", "numpy>=1.24", "PyYAML>=6.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

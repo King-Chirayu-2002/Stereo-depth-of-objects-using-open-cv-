@@ -1,0 +1,8 @@
+baseline_m: 0.075
+focal_length_px: 520.0
+min_disparity: 0
+num_disparities: 160
+block_size: 5
+min_depth_m: 0.20
+max_depth_m: 8.0
+roi_fraction: 0.35
